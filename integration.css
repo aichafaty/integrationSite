@@ -8,13 +8,6 @@ body{
     overflow-x: hidden;
 }
 
-#vide{ 
-    background-color: #CE0033;
-    width: 430px;
-    height: 410px;
-    border-radius: 20px;
-
-}
 p{
     color: rgb(252, 252, 252);
 }

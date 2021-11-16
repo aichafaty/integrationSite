@@ -396,3 +396,54 @@ footer{
 	}
 
 }
+@media(min-width: 769px) and (max-width: 1024px) {
+	#nav{
+		position: relative;
+		width: 767px;
+	}
+	#img{
+		position: relative;
+		width: 767px;
+		height: 300px;
+	}
+	#entity{
+		position: relative;
+		font-size: 28px;
+		
+
+	}
+
+	#im{
+		position: relative;
+		width: 300px; 
+		height: 350px;
+		
+	}
+	#im1{
+		position: relative;
+		width: 300px; 
+		height: 350px;
+	}
+	#c{
+		position: relative;
+		font-size: 25px;
+		width: 300px;
+	}
+	#a{
+		position: relative;
+		font-size: 25px;
+		width: 500px;
+	}
+	#d{
+		position: relative;
+		font-size: 25px;
+		width: 300px;
+		
+	}
+	footer{
+		position: relative;
+		width: 767px;
+		height: 400px;
+	}
+
+}

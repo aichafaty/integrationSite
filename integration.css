@@ -1,3 +1,10 @@
+@import url("fineprint.css") print;
+@import url("bluish.css") speech;
+@import 'custom.css';
+@import url("chrome://communicator/skin/");
+@import "common.css" screen;
+@import url('landscape.css') screen and (orientation:landscape);
+
 *{
 	box-sizing: border-box;
 }
@@ -7,10 +14,49 @@ body{
     height: auto;
     overflow-x: hidden;
 }
+#im{
+	width: 400px;
+	height: 400px;
+}
+#im1{
+	width: 400px;
+	height: 400px;
+}
+#c{
+	font-size: 28px;
+}
+#a{
+	font-size: 28px;
+}
+#d{
+	position: relative;
+	font-size: 28px;
+	left: 35px;
+}
+#prod{
+	position: relative;
+	left: 35px;
+}
+#bn{
+	position: relative;
+	left: 35px;
+}
+
+#entity{
+	
+	font-size: 48px;
+	font-family: Nunito sans;
+	position: relative;
+	
+	
+}
+
+
 
 p{
     color: rgb(252, 252, 252);
 }
+
 h2{
     color: rgb(252, 252, 252);
 }
@@ -136,7 +182,7 @@ footer{
 
 .footer-distributed .footer-center p a{
 	color:  #e0ac1c;
-	text-decoration: none;;
+	text-decoration: none;
 }
 
 

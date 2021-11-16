@@ -255,3 +255,144 @@ footer{
 	}
 
 }
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+@media only screen and (max-width: 360px) {
+	#nav{
+		position: fixed;
+		width: 350px;
+	}
+	#img{
+		position: relative;
+		width: 350px;
+		height: 300px;
+	}
+	#entity{
+		position: relative;
+		font-size: 20px;
+		bottom: 25px;
+		
+	}
+
+}
+
+@media (min-width: 375px) and (max-width: 426px) {
+	#nav{
+		position: fixed;
+		width: 380px;
+	}
+	#img{
+		position: relative;
+		width: 380px;
+		height: 300px;
+	}
+	#entity{
+		position: relative;
+		font-size: 20px;
+		bottom: 25px;
+
+	}
+
+	#im{
+		position: relative;
+		width: 300px; 
+		height: 350px;
+		
+	}
+	#im1{
+		position: relative;
+		width: 300px; 
+		height: 350px;
+	}
+	#c{
+		position: relative;
+		font-size: 18px;
+		width: 300px;
+	}
+	#a{
+		position: relative;
+		font-size: 15px;
+		width: 350px;
+	}
+	#d{
+		position: relative;
+		font-size: 16px;
+		width: 300px;
+		
+	}
+	footer{
+		position: relative;
+		width: 380px;
+	}
+
+
+
+}
+@media(min-width: 426px) and (max-width: 769px) {
+	#nav{
+		position: relative;
+		width: 767px;
+	}
+	#img{
+		position: relative;
+		width: 767px;
+		height: 300px;
+	}
+	#entity{
+		position: relative;
+		font-size: 28px;
+		
+
+	}
+
+	#im{
+		position: relative;
+		width: 300px; 
+		height: 350px;
+		
+	}
+	#im1{
+		position: relative;
+		width: 300px; 
+		height: 350px;
+	}
+	#c{
+		position: relative;
+		font-size: 25px;
+		width: 300px;
+	}
+	#a{
+		position: relative;
+		font-size: 25px;
+		width: 500px;
+	}
+	#d{
+		position: relative;
+		font-size: 25px;
+		width: 300px;
+		
+	}
+	footer{
+		position: relative;
+		width: 767px;
+		height: 400px;
+	}
+
+}

@@ -31,15 +31,15 @@ body{
 #d{
 	position: relative;
 	font-size: 28px;
-	left: 35px;
+	
 }
 #prod{
 	position: relative;
-	left: 35px;
+	
 }
 #bn{
 	position: relative;
-	left: 35px;
+	
 }
 
 #entity{
@@ -49,6 +49,9 @@ body{
 	position: relative;
 	
 	
+}
+ul > li>a{
+ margin-left: 40px;
 }
 
 

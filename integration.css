@@ -1,249 +1,105 @@
-@import url("fineprint.css") print;
-@import url("bluish.css") speech;
-@import 'custom.css';
-@import url("chrome://communicator/skin/");
-@import "common.css" screen;
-@import url('landscape.css') screen and (orientation:landscape);
-
 *{
-	box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+   
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
 }
-body{
-	margin: 0;
-	padding: 0;
-    height: auto;
-    overflow-x: hidden;
+#navbarSupportedContent ul>li{
+    position: relative;
+    margin-left: 90px;
+    width: 100%;
+    
+    
+
 }
-#im{
-	width: 400px;
-	height: 400px;
-}
-#im1{
-	width: 400px;
-	height: 400px;
-}
-#c{
-	font-size: 28px;
+#entity{
+    position: relative;
+    font-size:  58px; 
 }
 #a{
-	font-size: 28px;
+    position: relative;
+   
+    font-size:  28px; 
+    color: #000;
 }
-#d{
-	position: relative;
-	font-size: 28px;
-	
+
+#cord{
+   
+    font-size:  28px; 
+    color: #CE0033;
 }
+.image-container{
+    width: 100%;
+}
+.text-container{
+    width: 100%;
+}
+
+
+#para{
+font-size: 28px;
+color: #000;
+
+}
+
+#bouton{
+    font-size: 18px;
+    background-color: #CE0033;
+    width:168px;
+    height:47px;
+    border-radius: 20px;
+    }
+
+#imgone{
+    position: relative;
+    width:500px;
+    height:500px;
+    border-radius: 20px;
+    }
+
+#im1{
+        position: relative;
+        width:500px;
+        height:500px;
+        border-radius: 20px;
+    }
+    
 #prod{
-	position: relative;
-	
+    font-size:  28px; 
+    color: #CE0033;
+}
+#paragra{
+    font-size: 28px;
+    color: #000;
+    
 }
 #bn{
-	position: relative;
-	
-}
+    font-size: 18px;
+    background-color: #CE0033;
+    width:168px;
+    height:47px;
+    border-radius: 20px;
+    }
 
-#entity{
-	
-	font-size: 48px;
-	font-family: Nunito sans;
-	position: relative;
-	
-	
-}
-ul > li>a{
- margin-left: 45px;
-}
-
-
-
-p{
-    color: rgb(252, 252, 252);
-}
-
-h2{
-    color: rgb(252, 252, 252);
-}
-.bi::before {
-    display: inline-block;
-    content: "";
-    vertical-align: -.125em;
-    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
-    background-repeat: no-repeat;
-    background-size: 1rem 1rem;
+  #icons >a >i{
+      position: relative;
+    width: 50px;
   }
 
-
-
-@media only screen and (max-width: 360px) {
-	#nav{
-		position: fixed;
-		width: 350px;
-	}
-	#img{
-		position: relative;
-		width: 350px;
-		height: 300px;
-	}
-	#entity{
-		position: relative;
-		font-size: 20px;
-		bottom: 25px;
-		
-	}
-
+  #lien >a{
+    color: white;
+  
+}
+#lion >p{
+    color: white;
+  
+}
+#footerfoot{
+    
+display: flex;
+    
 }
 
-@media (min-width: 375px) and (max-width: 426px) {
-	#nav{
-		position: fixed;
-		width: 380px;
-	}
-	#img{
-		position: relative;
-		width: 380px;
-		height: 300px;
-	}
-	#entity{
-		position: relative;
-		font-size: 20px;
-		bottom: 25px;
 
-	}
-
-	#im{
-		position: relative;
-		width: 300px; 
-		height: 350px;
-		
-	}
-	#im1{
-		position: relative;
-		width: 300px; 
-		height: 350px;
-	}
-	#c{
-		position: relative;
-		font-size: 18px;
-		width: 300px;
-	}
-	#a{
-		position: relative;
-		font-size: 15px;
-		width: 350px;
-	}
-	#d{
-		position: relative;
-		font-size: 16px;
-		width: 300px;
-		
-	}
-	footer{
-		position: relative;
-		width: 380px;
-	}
-
-
-
-}
-@media(min-width: 426px) and (max-width: 769px) {
-	#nav{
-		position: relative;
-		width: 767px;
-	}
-	#img{
-		position: relative;
-		width: 767px;
-		height: 300px;
-	}
-	#entity{
-		position: relative;
-		font-size: 28px;
-		
-
-	}
-
-	#im{
-		position: relative;
-		width: 300px; 
-		height: 350px;
-		
-	}
-	#im1{
-		position: relative;
-		width: 300px; 
-		height: 350px;
-	}
-	#c{
-		position: relative;
-		font-size: 25px;
-		width: 300px;
-	}
-	#a{
-		position: relative;
-		font-size: 25px;
-		width: 500px;
-	}
-	#d{
-		position: relative;
-		font-size: 25px;
-		width: 300px;
-		
-	}
-	footer{
-		position: relative;
-		width: 767px;
-		height: 400px;
-	}
-
-}
-@media(min-width: 769px) and (max-width: 1024px) {
-	#nav{
-		position: relative;
-		width: 767px;
-	}
-	#img{
-		position: relative;
-		width: 767px;
-		height: 300px;
-	}
-	#entity{
-		position: relative;
-		font-size: 28px;
-		
-
-	}
-
-	#im{
-		position: relative;
-		width: 300px; 
-		height: 350px;
-		
-	}
-	#im1{
-		position: relative;
-		width: 300px; 
-		height: 350px;
-	}
-	#c{
-		position: relative;
-		font-size: 25px;
-		width: 300px;
-	}
-	#a{
-		position: relative;
-		font-size: 25px;
-		width: 500px;
-	}
-	#d{
-		position: relative;
-		font-size: 25px;
-		width: 300px;
-		
-	}
-	footer{
-		position: relative;
-		width: 767px;
-		height: 400px;
-	}
-
-}
+    

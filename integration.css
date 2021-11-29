@@ -13,6 +13,8 @@
     
 
 }
+
+
 #entity{
     position: relative;
     font-size:  58px; 
@@ -54,15 +56,15 @@ color: #000;
 #imgone{
     position: relative;
     width:500px;
-    height:500px;
-    border-radius: 20px;
+    height:520px;
+   box-shadow: 10px;
     }
 
 #im1{
         position: relative;
         width:500px;
-        height:500px;
-        border-radius: 20px;
+        height:520px;
+        box-shadow: 10px;
     }
     
 #prod{
@@ -102,4 +104,22 @@ display: flex;
 }
 
 
+.nav-link text-body{
+    width: 50px;
     
+}
+.active-link{
+    color: #ce0033 ;
+    border-bottom: 3px solid #CE0033;
+
+}
+
+@media screen and (max-width: 984px) {
+    .active-link{
+        color: #ce0033 ;
+        border-bottom: 3px solid #CE0033;
+        width: 50px;
+    
+    }
+    
+    }
